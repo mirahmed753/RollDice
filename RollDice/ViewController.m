@@ -20,4 +20,15 @@
 }
 
 
+- (IBAction)roll:(id)sender {
+    
+    // generate random number between 1 and 6
+    int min = 1;
+    int max = 7;
+    
+    int randomNum = arc4random_uniform(max - min) + min;
+    
+    self.label.text = [NSString stringWithFormat:@"Rolled a %i", randomNum];
+    self.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"Dice%i.png", randomNum]];
+}
 @end
