@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		385592BB217BC8E500CC7777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 385592BA217BC8E500CC7777 /* AppDelegate.m */; };
+		385592BE217BC8E500CC7777 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385592BD217BC8E500CC7777 /* ViewController.m */; };
+		385592C1217BC8E500CC7777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385592BF217BC8E500CC7777 /* Main.storyboard */; };
+		385592C3217BC8E500CC7777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385592C2217BC8E500CC7777 /* Assets.xcassets */; };
+		385592C6217BC8E500CC7777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385592C4217BC8E500CC7777 /* LaunchScreen.storyboard */; };
+		385592C9217BC8E500CC7777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 385592C8217BC8E500CC7777 /* main.m */; };
+		385592D3217BC8E600CC7777 /* RollDiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385592D2217BC8E600CC7777 /* RollDiceTests.m */; };
+		385592DE217BC8E600CC7777 /* RollDiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 385592DD217BC8E600CC7777 /* RollDiceUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		385592CF217BC8E600CC7777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 385592AE217BC8E400CC7777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 385592B5217BC8E400CC7777;
+			remoteInfo = RollDice;
+		};
+		385592DA217BC8E600CC7777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 385592AE217BC8E400CC7777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 385592B5217BC8E400CC7777;
+			remoteInfo = RollDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		385592B6217BC8E400CC7777 /* RollDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		385592B9217BC8E500CC7777 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		385592BA217BC8E500CC7777 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		385592BC217BC8E500CC7777 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		385592BD217BC8E500CC7777 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		385592C0217BC8E500CC7777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		385592C2217BC8E500CC7777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		385592C5217BC8E500CC7777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		385592C7217BC8E500CC7777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385592C8217BC8E500CC7777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		385592CE217BC8E600CC7777 /* RollDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		385592D2217BC8E600CC7777 /* RollDiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollDiceTests.m; sourceTree = "<group>"; };
+		385592D4217BC8E600CC7777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385592D9217BC8E600CC7777 /* RollDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		385592DD217BC8E600CC7777 /* RollDiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollDiceUITests.m; sourceTree = "<group>"; };
+		385592DF217BC8E600CC7777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		385592B3217BC8E400CC7777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385592CB217BC8E600CC7777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385592D6217BC8E600CC7777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		385592AD217BC8E400CC7777 = {
+			isa = PBXGroup;
+			children = (
+				385592B8217BC8E400CC7777 /* RollDice */,
+				385592D1217BC8E600CC7777 /* RollDiceTests */,
+				385592DC217BC8E600CC7777 /* RollDiceUITests */,
+				385592B7217BC8E400CC7777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		385592B7217BC8E400CC7777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				385592B6217BC8E400CC7777 /* RollDice.app */,
+				385592CE217BC8E600CC7777 /* RollDiceTests.xctest */,
+				385592D9217BC8E600CC7777 /* RollDiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		385592B8217BC8E400CC7777 /* RollDice */ = {
+			isa = PBXGroup;
+			children = (
+				385592B9217BC8E500CC7777 /* AppDelegate.h */,
+				385592BA217BC8E500CC7777 /* AppDelegate.m */,
+				385592BC217BC8E500CC7777 /* ViewController.h */,
+				385592BD217BC8E500CC7777 /* ViewController.m */,
+				385592BF217BC8E500CC7777 /* Main.storyboard */,
+				385592C2217BC8E500CC7777 /* Assets.xcassets */,
+				385592C4217BC8E500CC7777 /* LaunchScreen.storyboard */,
+				385592C7217BC8E500CC7777 /* Info.plist */,
+				385592C8217BC8E500CC7777 /* main.m */,
+			);
+			path = RollDice;
+			sourceTree = "<group>";
+		};
+		385592D1217BC8E600CC7777 /* RollDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				385592D2217BC8E600CC7777 /* RollDiceTests.m */,
+				385592D4217BC8E600CC7777 /* Info.plist */,
+			);
+			path = RollDiceTests;
+			sourceTree = "<group>";
+		};
+		385592DC217BC8E600CC7777 /* RollDiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				385592DD217BC8E600CC7777 /* RollDiceUITests.m */,
+				385592DF217BC8E600CC7777 /* Info.plist */,
+			);
+			path = RollDiceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		385592B5217BC8E400CC7777 /* RollDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385592E2217BC8E600CC7777 /* Build configuration list for PBXNativeTarget "RollDice" */;
+			buildPhases = (
+				385592B2217BC8E400CC7777 /* Sources */,
+				385592B3217BC8E400CC7777 /* Frameworks */,
+				385592B4217BC8E400CC7777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollDice;
+			productName = RollDice;
+			productReference = 385592B6217BC8E400CC7777 /* RollDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		385592CD217BC8E600CC7777 /* RollDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385592E5217BC8E600CC7777 /* Build configuration list for PBXNativeTarget "RollDiceTests" */;
+			buildPhases = (
+				385592CA217BC8E600CC7777 /* Sources */,
+				385592CB217BC8E600CC7777 /* Frameworks */,
+				385592CC217BC8E600CC7777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				385592D0217BC8E600CC7777 /* PBXTargetDependency */,
+			);
+			name = RollDiceTests;
+			productName = RollDiceTests;
+			productReference = 385592CE217BC8E600CC7777 /* RollDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		385592D8217BC8E600CC7777 /* RollDiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385592E8217BC8E600CC7777 /* Build configuration list for PBXNativeTarget "RollDiceUITests" */;
+			buildPhases = (
+				385592D5217BC8E600CC7777 /* Sources */,
+				385592D6217BC8E600CC7777 /* Frameworks */,
+				385592D7217BC8E600CC7777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				385592DB217BC8E600CC7777 /* PBXTargetDependency */,
+			);
+			name = RollDiceUITests;
+			productName = RollDiceUITests;
+			productReference = 385592D9217BC8E600CC7777 /* RollDiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		385592AE217BC8E400CC7777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Mir M. Ahmed";
+				TargetAttributes = {
+					385592B5217BC8E400CC7777 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					385592CD217BC8E600CC7777 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 385592B5217BC8E400CC7777;
+					};
+					385592D8217BC8E600CC7777 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 385592B5217BC8E400CC7777;
+					};
+				};
+			};
+			buildConfigurationList = 385592B1217BC8E400CC7777 /* Build configuration list for PBXProject "RollDice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 385592AD217BC8E400CC7777;
+			productRefGroup = 385592B7217BC8E400CC7777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				385592B5217BC8E400CC7777 /* RollDice */,
+				385592CD217BC8E600CC7777 /* RollDiceTests */,
+				385592D8217BC8E600CC7777 /* RollDiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		385592B4217BC8E400CC7777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385592C6217BC8E500CC7777 /* LaunchScreen.storyboard in Resources */,
+				385592C3217BC8E500CC7777 /* Assets.xcassets in Resources */,
+				385592C1217BC8E500CC7777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385592CC217BC8E600CC7777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385592D7217BC8E600CC7777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		385592B2217BC8E400CC7777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385592BE217BC8E500CC7777 /* ViewController.m in Sources */,
+				385592C9217BC8E500CC7777 /* main.m in Sources */,
+				385592BB217BC8E500CC7777 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385592CA217BC8E600CC7777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385592D3217BC8E600CC7777 /* RollDiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385592D5217BC8E600CC7777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385592DE217BC8E600CC7777 /* RollDiceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		385592D0217BC8E600CC7777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 385592B5217BC8E400CC7777 /* RollDice */;
+			targetProxy = 385592CF217BC8E600CC7777 /* PBXContainerItemProxy */;
+		};
+		385592DB217BC8E600CC7777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 385592B5217BC8E400CC7777 /* RollDice */;
+			targetProxy = 385592DA217BC8E600CC7777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		385592BF217BC8E500CC7777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				385592C0217BC8E500CC7777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		385592C4217BC8E500CC7777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				385592C5217BC8E500CC7777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		385592E0217BC8E600CC7777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		385592E1217BC8E600CC7777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		385592E3217BC8E600CC7777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A44F5WGJN6;
+				INFOPLIST_FILE = RollDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mirsapps.RollDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		385592E4217BC8E600CC7777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A44F5WGJN6;
+				INFOPLIST_FILE = RollDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mirsapps.RollDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		385592E6217BC8E600CC7777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A44F5WGJN6;
+				INFOPLIST_FILE = RollDiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mirsapps.RollDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollDice.app/RollDice";
+			};
+			name = Debug;
+		};
+		385592E7217BC8E600CC7777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A44F5WGJN6;
+				INFOPLIST_FILE = RollDiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mirsapps.RollDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollDice.app/RollDice";
+			};
+			name = Release;
+		};
+		385592E9217BC8E600CC7777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A44F5WGJN6;
+				INFOPLIST_FILE = RollDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mirsapps.RollDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollDice;
+			};
+			name = Debug;
+		};
+		385592EA217BC8E600CC7777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A44F5WGJN6;
+				INFOPLIST_FILE = RollDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mirsapps.RollDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollDice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		385592B1217BC8E400CC7777 /* Build configuration list for PBXProject "RollDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385592E0217BC8E600CC7777 /* Debug */,
+				385592E1217BC8E600CC7777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		385592E2217BC8E600CC7777 /* Build configuration list for PBXNativeTarget "RollDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385592E3217BC8E600CC7777 /* Debug */,
+				385592E4217BC8E600CC7777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		385592E5217BC8E600CC7777 /* Build configuration list for PBXNativeTarget "RollDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385592E6217BC8E600CC7777 /* Debug */,
+				385592E7217BC8E600CC7777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		385592E8217BC8E600CC7777 /* Build configuration list for PBXNativeTarget "RollDiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385592E9217BC8E600CC7777 /* Debug */,
+				385592EA217BC8E600CC7777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 385592AE217BC8E400CC7777 /* Project object */;
+}
